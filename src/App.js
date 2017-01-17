@@ -4,6 +4,7 @@ import './App.css';
 
 class App extends Component {
   openStripe = () => {
+    alert('openStripe called');
     window.stripeHandler.open({
       name: 'Merchant',
       description: 'A description',
